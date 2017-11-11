@@ -39,8 +39,7 @@ public class RecursionAssignment {
 		if(c.getSuperclass() == null) {
 			System.out.println(c.getName());
 			return;
-		}
-		else {
+		} else {
 			System.out.println(c.getName());
 			classStructureRecursiveR(c.getSuperclass());
 		}
